@@ -38,5 +38,12 @@ public class Main {
         System.out.println("Integer Minimum Value = " + myMinLongValue);
         System.out.println("Overflow max Value = " + (myMaxLongValue + 1));
         System.out.println("Underflow min Value = " + (myMinLongValue - 1));
+
+        long myBigLongValue =  2_147_483_647_234L;
+
+        //Type Casting
+        int myNewIntValue = (myMinIntValue / 2);
+        byte myNewByteValue = (byte) (myMINByteValue / 2);
+        short myNewShortValue = (short) (myMinShortValue / 2);
     }
 }
