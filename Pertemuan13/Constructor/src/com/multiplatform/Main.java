@@ -20,5 +20,9 @@ public class Main {
         Account bobsAccount = new Account();
         System.out.println("Customer name: " + bobsAccount.getCustomerName());
         System.out.println("Balance : " + bobsAccount.getBalance());
+
+        Account mikeAccount = new Account("Mike", "mike@email.com", "123456789");
+        System.out.println("Customer name: " + mikeAccount.getCustomerName());
+        System.out.println("Balance :" + mikeAccount.getBalance());
     }
 }

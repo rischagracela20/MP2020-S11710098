@@ -20,6 +20,10 @@ public class Account {
 
     }
 
+    public Account(String customerName, String emailAddress, String phoneNumber) {
+        this("99999999", 0.0, customerName, emailAddress, phoneNumber);
+    }
+
     public String getNumber() {
         return number;
     }
@@ -37,39 +41,19 @@ public class Account {
 
     }
 
-    public void setNumber(String number) {
-        this.number = number;
-    }
-
     public double getBalance() {
         return balance;
-    }
-
-    public void setBalance(double balance) {
-        this.balance = balance;
     }
 
     public String getCustomerName() {
         return customerName;
     }
 
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
-    }
-
     public String getEmailAddress() {
         return emailAddress;
     }
 
-    public void setEmailAddress(String emailAddress) {
-        this.emailAddress = emailAddress;
-    }
-
     public String getPhoneNumber() {
         return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
     }
 }
